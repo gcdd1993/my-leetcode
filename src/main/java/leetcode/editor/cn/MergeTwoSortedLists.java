@@ -1,13 +1,17 @@
 package leetcode.editor.cn;
 
 // [21]合并两个有序链表
+
+/**
+ *
+ */
 public class MergeTwoSortedLists {
     public static void main(String[] args) {
         Solution solution = new MergeTwoSortedLists().new Solution();
         ListNode l1 = new ListNode(1, new ListNode(2, new ListNode(4)));
         ListNode l2 = new ListNode(1, new ListNode(3, new ListNode(4)));
         ListNode res = solution.mergeTwoLists(l1, l2);
-        while (res.next != null) {
+        while (res != null) {
             System.out.println(res.val);
             res = res.next;
         }
