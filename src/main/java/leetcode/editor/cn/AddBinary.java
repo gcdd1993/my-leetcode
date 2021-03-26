@@ -15,6 +15,7 @@ public class AddBinary {
     class Solution {
         public String addBinary(String a, String b) {
             // 二进制加法 1 + 1 = 2 进位
+            return "";
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
